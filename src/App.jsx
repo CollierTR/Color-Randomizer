@@ -6,7 +6,7 @@ function App() {
   const [colorFormat, setColorFormat] = useState('hex')
   const [colorName, setColorName] = useState("Deep Space Sparkle")
   const [textColor, setTextColor] = useState('#ffffff')
-  const [border, setBorder] = useState('2px solid green')
+  const [border, setBorder] = useState('2px solid #ffffff')
 
   function getRandomHexColor() {
     // Generate a random integer between 0 and 16777215 (which corresponds to #000000 to #FFFFFF)
